@@ -1,0 +1,28 @@
+{
+  "name": "fullscreen-volume",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Добавляет минималистичный ползунок громкости под полосу прокрутки в полноэкранном плеере",
+  "scripts": {
+    "dev": "node ./scripts/dev-build.mjs",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "format": "oxfmt .",
+    "sync": "node ./scripts/sync-addon.mjs",
+    "build:sync": "yarn build && yarn sync"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "packageManager": "yarn@4.18.1",
+  "dependencies": {
+    "@pulsesync/addon-sdk": "0.20.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "oxfmt": "0.79.0",
+    "react": "19.3.1",
+    "typescript": "7.0.2",
+    "vite": "8.3.8"
+  }
+}

@@ -1,0 +1,20 @@
+export default {
+    image: '',
+    banner: '',
+    libraryLogo: '',
+    dependencies: [],
+    allowedUrls: [],
+    supportedVersions: [],
+    id: 'fullscreen-volume',
+    directoryName: 'fullscreen-volume',
+    name: 'Fullscreen Volume',
+    description: 'Добавляет ползунок громкости в полноэкранном плеере',
+    version: '1.0.0',
+    author: 'custom_qq',
+    tags: ['UI'],
+    cssScope: 'global',
+    requirements: {
+        minHostApi: 1,
+        capabilities: ['lifecycle-v1'],
+    },
+}
